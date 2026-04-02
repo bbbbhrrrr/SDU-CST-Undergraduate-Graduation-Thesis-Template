@@ -1,0 +1,53 @@
+\appendix
+\phantomsection
+\addcontentsline{toc}{section}{附录}
+\begin{center}
+  {\heiti\zihao{-2}\bfseries 附\qquad 录}
+\end{center}
+
+\vspace{1.5\baselineskip}
+
+{\songti\zihao{-4}\setstretch{1.5}
+\subsection*{补充材料}
+
+本部分用于放置正文中未展开但有必要保留的补充内容，例如公式推导、补充实验、参数说明、算法描述、代码片段等。附录正文与论文正文保持一致，均采用宋体小四号、1.5 倍行距、首行缩进 2 字符。若没有这类补充材料，可在定稿前将本节内容替换为自己的附录正文，或按需删除示例说明。
+
+\phantomsection
+\addcontentsline{toc}{subsection}{译文}
+\subsection*{译文}
+
+\begin{center}
+  {\heiti\zihao{-2}\bfseries 在此填写译文标题}
+\end{center}
+\begin{center}
+  {\songti\zihao{4}作者信息可写为：Author A, Author B}
+\end{center}
+
+本部分用于放置与专业相关的外文资料译文。根据学院规范，译文字数应不少于 2000 字，并建议保留原文的逻辑结构、关键术语与必要注释。若原文包含图表、公式或专有名词，请在翻译时保证术语前后一致，避免与正文中的术语体系冲突。
+
+\phantomsection
+\addcontentsline{toc}{subsection}{原文}
+\subsection*{原文}
+
+\begin{center}
+  {\thesiswesternfont\fontsize{18pt}{27pt}\selectfont\bfseries Original Title of the Selected Reference}
+\end{center}
+\begin{center}
+  {\thesiswesternfont\zihao{4}Author A, Author B}
+\end{center}
+
+{\thesiswesternfont\zihao{-4}
+This subsection is reserved for the original foreign-language text corresponding to the translated material above. Please keep the title, author list, and main body of the source paper or chapter so that the appendix can be reviewed as a complete translation package.
+\par}
+
+\subsection*{补充代码或推导（可选）}
+
+本部分用于放置不宜在正文中大段展开、但对论文完整性有帮助的补充材料，例如算法伪代码、实验脚本片段、定理证明过程、参数配置说明等。若附录中包含代码，推荐使用模板已配置好的 \texttt{lstlisting} 环境。
+
+\begin{lstlisting}[language=Python]
+def evaluate_model(samples):
+    """Appendix example: replace with your own script or pseudocode."""
+    scores = [sample["score"] for sample in samples]
+    return sum(scores) / len(scores)
+\end{lstlisting}
+}
